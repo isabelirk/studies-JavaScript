@@ -33,3 +33,18 @@ const contrary = fruits.slice(-3); // quando negativo, conta os índices do fina
 console.log(copy);
 console.log(contrary);
 console.log(fruits); // o array original não é modificado
+
+// Concatentando elementos
+const fruitBowl = contrary.concat(copy, "Ameixa");
+console.log(fruitBowl);
+
+// Substitui elementos no array e retorna os elementos removidos
+const removedElements = fruitBowl.splice(3, 2, "Melância", "Laranja");
+console.log(removedElements);
+console.log(fruitBowl);
+
+// Iterar sobre os elementos do array
+for (let i = 0; i < fruitBowl.length; i++) {
+  const aux = fruitBowl[i];
+  console.log(aux + " se encontra na posição " + i);
+}

@@ -1,10 +1,10 @@
-// var ->
+// var -> é recomendado seu uso em casos específicos
 var n1 = 10;
 var n2 = 20;
 var soma = n1 + n2;
 console.log(soma);
 
-// let -> declaração de uma variavel local de escopo do bloco opcionalmente inicializando com algum valor
+// let -> declaração de uma variável local de escopo do bloco opcionalmente inicializando com algum valor
 let saudacao = "Olá mundo!";
 
 if (true) {
@@ -14,7 +14,7 @@ if (true) {
 
 console.log(saudacao);
 
-// const -> declaração de uma constante de escopo de bloco de apenas de leitura
+// const -> declaração de uma constante de escopo de bloco apenas de leitura
 const cidade = "Erechim";
 
 function estado() {

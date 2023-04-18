@@ -1,6 +1,6 @@
 // switch-case
 
-let qualDataHoje = new Date();
+let qualDataHoje = new Date(); // clique com o botão direito em cima da função e selecione a opção "ir para implementações"
 
 switch (qualDataHoje.getDay()) {
   case 0:

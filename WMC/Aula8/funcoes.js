@@ -1,4 +1,4 @@
-// Função Anônima
+// Função Anônima - sem parâmetros
 function mostrarMensagem() {
   return console.log(
     "Parabéns! Você chegou ao final do treinamento de JavaScript!"
@@ -27,3 +27,17 @@ function mostrarNumerosImpares() {
 }
 
 mostrarNumerosImpares();
+
+// Escopo Global
+let localNascimento = "Rio de Janeiro"; // variável global
+
+function mostrarLocalNascimento() {
+  let localOndeMorei = "Buenos Aires"; // variável local
+  console.log(localNascimento);
+  console.log(localOndeMorei);
+}
+
+console.log(localNascimento);
+//console.log(localOndeMorei); // ReferenceError: localOndeMorei is not defined
+
+mostrarLocalNascimento();
